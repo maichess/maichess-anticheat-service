@@ -1,0 +1,1577 @@
+{
+  "MaichessAnticheatService.dll": {
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Stream\\AnticheatStreamProcessor.cs": {
+      "MaichessAnticheatService.Stream.AnticheatStreamProcessor": {
+        "MaichessAnticheatService.Stream.StreamOutput MaichessAnticheatService.Stream.AnticheatStreamProcessor::Handle(Maichess.Events.V1.MatchEvent,System.Boolean)": {
+          "Lines": {
+            "17": 44,
+            "18": 44,
+            "19": 44,
+            "20": 44,
+            "21": 3,
+            "22": 3,
+            "25": 41,
+            "26": 3,
+            "27": 3,
+            "28": 17,
+            "29": 4,
+            "30": 4,
+            "31": 4,
+            "33": 3,
+            "36": 38,
+            "38": 38,
+            "42": 38,
+            "43": 38,
+            "44": 14,
+            "45": 14,
+            "46": 14,
+            "47": 14,
+            "48": 14,
+            "49": 14,
+            "50": 14,
+            "51": 2,
+            "52": 2,
+            "53": 2,
+            "54": 14,
+            "56": 38,
+            "57": 44
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 20,
+              "Offset": 61,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 41
+            },
+            {
+              "Line": 25,
+              "Offset": 86,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 28,
+              "Offset": 134,
+              "EndOffset": 136,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 28,
+              "Offset": 134,
+              "EndOffset": 160,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 28,
+              "Offset": 211,
+              "EndOffset": 179,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 4
+            },
+            {
+              "Line": 28,
+              "Offset": 211,
+              "EndOffset": 213,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 25,
+              "Offset": 86,
+              "EndOffset": 260,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 38
+            },
+            {
+              "Line": 42,
+              "Offset": 299,
+              "EndOffset": 301,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 32
+            },
+            {
+              "Line": 42,
+              "Offset": 299,
+              "EndOffset": 327,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 6
+            },
+            {
+              "Line": 42,
+              "Offset": 332,
+              "EndOffset": 337,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 14
+            },
+            {
+              "Line": 50,
+              "Offset": 457,
+              "EndOffset": 459,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 50,
+              "Offset": 457,
+              "EndOffset": 471,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 12
+            },
+            {
+              "Line": 50,
+              "Offset": 476,
+              "EndOffset": 478,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 2
+            },
+            {
+              "Line": 50,
+              "Offset": 476,
+              "EndOffset": 513,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 14
+            },
+            {
+              "Line": 42,
+              "Offset": 332,
+              "EndOffset": 514,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 38
+            },
+            {
+              "Line": 56,
+              "Offset": 515,
+              "EndOffset": 517,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 2
+            },
+            {
+              "Line": 56,
+              "Offset": 515,
+              "EndOffset": 526,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 36
+            }
+          ]
+        },
+        "System.Void MaichessAnticheatService.Stream.AnticheatStreamProcessor::.ctor(MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "11": 6,
+            "13": 6,
+            "14": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Stream\\MatchStreamProjection.cs": {
+      "MaichessAnticheatService.Stream.MatchStreamProjection": {
+        "MaichessAnticheatService.Stream.MatchTimingState MaichessAnticheatService.Stream.MatchStreamProjection::Apply(MaichessAnticheatService.Stream.MatchTimingState,Maichess.Events.V1.MatchEvent,System.Boolean)": {
+          "Lines": {
+            "20": 60,
+            "21": 60,
+            "22": 60,
+            "23": 14,
+            "24": 74,
+            "25": 11,
+            "26": 6,
+            "27": 60,
+            "28": 60
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 15,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 46
+            },
+            {
+              "Line": 21,
+              "Offset": 22,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 8
+            },
+            {
+              "Line": 21,
+              "Offset": 15,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            },
+            {
+              "Line": 21,
+              "Offset": 22,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 38
+            },
+            {
+              "Line": 24,
+              "Offset": 43,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 36
+            },
+            {
+              "Line": 21,
+              "Offset": 29,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 7
+            },
+            {
+              "Line": 25,
+              "Offset": 59,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 4
+            },
+            {
+              "Line": 21,
+              "Offset": 29,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 6
+            },
+            {
+              "Line": 24,
+              "Offset": 43,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 6
+            },
+            {
+              "Line": 25,
+              "Offset": 59,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 6
+            }
+          ]
+        },
+        "MaichessAnticheatService.Stream.MatchTimingState MaichessAnticheatService.Stream.MatchStreamProjection::Seed(Maichess.Events.V1.MatchEvent)": {
+          "Lines": {
+            "31": 14,
+            "32": 14,
+            "33": 14,
+            "34": 14,
+            "35": 14,
+            "36": 14,
+            "37": 14
+          },
+          "Branches": []
+        },
+        "MaichessAnticheatService.Stream.MatchTimingState MaichessAnticheatService.Stream.MatchStreamProjection::ApplyMove(MaichessAnticheatService.Stream.MatchTimingState,Maichess.Events.V1.MatchEvent,System.Boolean)": {
+          "Lines": {
+            "40": 36,
+            "41": 36,
+            "42": 36,
+            "43": 36,
+            "44": 19,
+            "47": 19,
+            "50": 17,
+            "51": 17,
+            "52": 17,
+            "53": 17,
+            "54": 17,
+            "55": 17,
+            "56": 17,
+            "57": 36
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 19
+            },
+            {
+              "Line": 43,
+              "Offset": 28,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 17
+            },
+            {
+              "Line": 52,
+              "Offset": 192,
+              "EndOffset": 163,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 46
+            },
+            {
+              "Line": 52,
+              "Offset": 192,
+              "EndOffset": 194,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 17
+            }
+          ]
+        },
+        "System.String MaichessAnticheatService.Stream.MatchStreamProjection::UserIdOrNull(Maichess.Events.V1.Player)": {
+          "Lines": {
+            "60": 64
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 1,
+              "EndOffset": 3,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 64
+            },
+            {
+              "Line": 60,
+              "Offset": 1,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 21
+            },
+            {
+              "Line": 60,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 21
+            },
+            {
+              "Line": 60,
+              "Offset": 10,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 43
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Stream\\MatchTimingState.cs": {
+      "MaichessAnticheatService.Stream.MatchTimingState": {
+        "System.Void MaichessAnticheatService.Stream.MatchTimingState::.ctor(System.String,System.String,System.String,System.Int64,System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Detection.PlyObservation>,System.Boolean)": {
+          "Lines": {
+            "10": 14,
+            "11": 14,
+            "12": 14,
+            "13": 14,
+            "14": 14,
+            "15": 14,
+            "16": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Detection\\CombinedScorer.cs": {
+      "MaichessAnticheatService.Detection.CombinedScorer": {
+        "System.Double MaichessAnticheatService.Detection.CombinedScorer::GameScore(System.Double,System.Double,MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "13": 16,
+            "14": 16,
+            "15": 16,
+            "16": 16
+          },
+          "Branches": []
+        },
+        "System.Double MaichessAnticheatService.Detection.CombinedScorer::CaseScore(System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Detection.GameVerdict>,MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "19": 21,
+            "20": 21,
+            "21": 1,
+            "22": 1,
+            "25": 20,
+            "26": 20,
+            "28": 20,
+            "29": 11,
+            "30": 11,
+            "31": 11,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 11,
+            "37": 20,
+            "38": 21
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 12,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 20
+            },
+            {
+              "Line": 28,
+              "Offset": 115,
+              "EndOffset": 117,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 11
+            },
+            {
+              "Line": 31,
+              "Offset": 207,
+              "EndOffset": 209,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 31,
+              "Offset": 207,
+              "EndOffset": 243,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 11
+            },
+            {
+              "Line": 28,
+              "Offset": 115,
+              "EndOffset": 244,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 20
+            }
+          ]
+        },
+        "System.Boolean MaichessAnticheatService.Detection.CombinedScorer::ShouldFlag(System.Double,System.Int32,MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "41": 16
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 41,
+              "Offset": 7,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Detection\\EngineCorrelationDetector.cs": {
+      "MaichessAnticheatService.Detection.EngineCorrelationDetector": {
+        "MaichessAnticheatService.Detection.CorrelationResult MaichessAnticheatService.Detection.EngineCorrelationDetector::Score(System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Detection.AnalyzedPly>,MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "11": 21,
+            "12": 21,
+            "13": 21,
+            "14": 21,
+            "15": 21,
+            "17": 163,
+            "18": 50,
+            "19": 50,
+            "20": 28,
+            "21": 28,
+            "24": 22,
+            "25": 22,
+            "26": 22,
+            "27": 22,
+            "28": 22,
+            "30": 22,
+            "31": 14,
+            "32": 14,
+            "33": 14,
+            "34": 22,
+            "36": 21,
+            "37": 11,
+            "38": 11,
+            "41": 10,
+            "42": 10,
+            "43": 10,
+            "44": 21
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 210,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 50
+            },
+            {
+              "Line": 19,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 35
+            },
+            {
+              "Line": 19,
+              "Offset": 71,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 15
+            },
+            {
+              "Line": 19,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 28
+            },
+            {
+              "Line": 19,
+              "Offset": 95,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 22
+            },
+            {
+              "Line": 24,
+              "Offset": 112,
+              "EndOffset": 114,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 21
+            },
+            {
+              "Line": 24,
+              "Offset": 112,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 179,
+              "EndOffset": 181,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 14
+            },
+            {
+              "Line": 30,
+              "Offset": 179,
+              "EndOffset": 202,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 22
+            },
+            {
+              "Line": 17,
+              "Offset": 210,
+              "EndOffset": 215,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 21
+            },
+            {
+              "Line": 36,
+              "Offset": 246,
+              "EndOffset": 248,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 11
+            },
+            {
+              "Line": 36,
+              "Offset": 246,
+              "EndOffset": 273,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 10
+            }
+          ]
+        },
+        "System.Double MaichessAnticheatService.Detection.EngineCorrelationDetector::MatchValue(MaichessAnticheatService.Detection.AnalyzedPly)": {
+          "Lines": {
+            "47": 22,
+            "48": 115,
+            "49": 33,
+            "50": 33,
+            "51": 17,
+            "52": 17,
+            "53": 17,
+            "54": 14,
+            "55": 1,
+            "56": 2,
+            "57": 17,
+            "59": 16,
+            "61": 5,
+            "62": 22
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 129,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 33
+            },
+            {
+              "Line": 50,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 17
+            },
+            {
+              "Line": 52,
+              "Offset": 66,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 52,
+              "Offset": 66,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 14
+            },
+            {
+              "Line": 52,
+              "Offset": 73,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 73,
+              "EndOffset": 101,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 50,
+              "Offset": 48,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 16
+            },
+            {
+              "Line": 48,
+              "Offset": 129,
+              "EndOffset": 131,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Detection\\GameVerdict.cs": {
+      "MaichessAnticheatService.Detection.GameVerdict": {
+        "System.Void MaichessAnticheatService.Detection.GameVerdict::.ctor(System.String,System.Double,System.Double,System.Double,System.Collections.Generic.IReadOnlyList`1<System.Int32>,System.Int64)": {
+          "Lines": {
+            "6": 63,
+            "7": 63,
+            "8": 63,
+            "9": 63,
+            "10": 63,
+            "11": 63,
+            "12": 63
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Detection\\LiveScorer.cs": {
+      "MaichessAnticheatService.Detection.LiveScorer": {
+        "System.ValueTuple`2<MaichessAnticheatService.Detection.LivePlayerState,System.Nullable`1<System.Double>> MaichessAnticheatService.Detection.LiveScorer::Observe(MaichessAnticheatService.Detection.LivePlayerState,MaichessAnticheatService.Detection.PlyObservation,MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "17": 42,
+            "18": 42,
+            "19": 21,
+            "20": 21,
+            "24": 21,
+            "25": 21,
+            "26": 21,
+            "27": 21,
+            "28": 21,
+            "30": 21,
+            "31": 17,
+            "32": 17,
+            "35": 4,
+            "36": 4,
+            "37": 4,
+            "38": 1,
+            "39": 1,
+            "42": 3,
+            "43": 42
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 25
+            },
+            {
+              "Line": 18,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 22
+            },
+            {
+              "Line": 18,
+              "Offset": 7,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 20
+            },
+            {
+              "Line": 18,
+              "Offset": 21,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 20
+            },
+            {
+              "Line": 18,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 21
+            },
+            {
+              "Line": 18,
+              "Offset": 43,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 21
+            },
+            {
+              "Line": 30,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 16
+            },
+            {
+              "Line": 30,
+              "Offset": 163,
+              "EndOffset": 182,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            },
+            {
+              "Line": 30,
+              "Offset": 187,
+              "EndOffset": 189,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 17
+            },
+            {
+              "Line": 30,
+              "Offset": 187,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 4
+            },
+            {
+              "Line": 37,
+              "Offset": 300,
+              "EndOffset": 302,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 300,
+              "EndOffset": 324,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Detection\\PlyObservation.cs": {
+      "MaichessAnticheatService.Detection.PlyObservation": {
+        "System.Void MaichessAnticheatService.Detection.PlyObservation::.ctor(System.Int32,System.String,System.String,System.Int64,System.Boolean)": {
+          "Lines": {
+            "8": 122,
+            "9": 122,
+            "10": 122,
+            "11": 122,
+            "12": 122,
+            "13": 122
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Detection\\StatisticalDetector.cs": {
+      "MaichessAnticheatService.Detection.StatisticalDetector": {
+        "System.Double MaichessAnticheatService.Detection.StatisticalDetector::Score(System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Detection.PlyObservation>,MaichessAnticheatService.Detection.DetectionOptions)": {
+          "Lines": {
+            "15": 19,
+            "16": 19,
+            "17": 181,
+            "18": 62,
+            "19": 62,
+            "20": 21,
+            "21": 21,
+            "22": 21,
+            "23": 62,
+            "25": 19,
+            "26": 14,
+            "27": 14,
+            "30": 5,
+            "31": 5,
+            "32": 5,
+            "34": 5,
+            "35": 19
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 103,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 62
+            },
+            {
+              "Line": 19,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 57
+            },
+            {
+              "Line": 19,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 42
+            },
+            {
+              "Line": 19,
+              "Offset": 41,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 20
+            },
+            {
+              "Line": 19,
+              "Offset": 56,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 20
+            },
+            {
+              "Line": 19,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 21
+            },
+            {
+              "Line": 19,
+              "Offset": 76,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 62
+            },
+            {
+              "Line": 17,
+              "Offset": 103,
+              "EndOffset": 105,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 19
+            },
+            {
+              "Line": 25,
+              "Offset": 138,
+              "EndOffset": 140,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 14
+            },
+            {
+              "Line": 25,
+              "Offset": 138,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Cases\\AuditEntry.cs": {
+      "MaichessAnticheatService.Cases.AuditEntry": {
+        "System.Void MaichessAnticheatService.Cases.AuditEntry::.ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.Double,System.Int64)": {
+          "Lines": {
+            "5": 8,
+            "6": 8,
+            "7": 8,
+            "8": 8,
+            "9": 8,
+            "10": 8,
+            "11": 8,
+            "12": 8,
+            "13": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Cases\\CaseDocument.cs": {
+      "MaichessAnticheatService.Cases.CaseDocument": {
+        "System.Void MaichessAnticheatService.Cases.CaseDocument::.ctor(System.String,System.String,MaichessAnticheatService.Cases.CaseStatus,System.Double,System.Int64,System.Int32,System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Cases.CaseGame>,System.Int64,System.Int64,System.Nullable`1<System.Int64>)": {
+          "Lines": {
+            "6": 12,
+            "7": 12,
+            "8": 12,
+            "9": 12,
+            "10": 12,
+            "11": 12,
+            "12": 12,
+            "13": 12,
+            "14": 12,
+            "15": 12,
+            "16": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Cases\\CaseGame.cs": {
+      "MaichessAnticheatService.Cases.CaseGame": {
+        "System.Void MaichessAnticheatService.Cases.CaseGame::.ctor(System.String,System.Double,System.Double,System.Double,System.Collections.Generic.IReadOnlyList`1<System.Int32>,System.Int64)": {
+          "Lines": {
+            "5": 14,
+            "6": 14,
+            "7": 14,
+            "8": 14,
+            "9": 14,
+            "10": 14,
+            "11": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Cases\\CaseService.cs": {
+      "MaichessAnticheatService.Cases.CaseService": {
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Cases.CaseDocument>> MaichessAnticheatService.Cases.CaseService::ListCasesAsync(System.Nullable`1<MaichessAnticheatService.Cases.CaseStatus>,System.Int32,System.Int32,System.Threading.CancellationToken)": {
+          "Lines": {
+            "123": 2
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<MaichessAnticheatService.Cases.CaseDocument> MaichessAnticheatService.Cases.CaseService::GetCaseAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "126": 1
+          },
+          "Branches": []
+        },
+        "System.Threading.Tasks.Task`1<System.Collections.Generic.IReadOnlyList`1<MaichessAnticheatService.Cases.AuditEntry>> MaichessAnticheatService.Cases.CaseService::ListAuditAsync(System.String,System.Threading.CancellationToken)": {
+          "Lines": {
+            "129": 1
+          },
+          "Branches": []
+        },
+        "System.Void MaichessAnticheatService.Cases.CaseService::.ctor(MaichessAnticheatService.Cases.IAnticheatStore,MaichessAnticheatService.Cases.ICheatEventProducer,MaichessAnticheatService.Detection.DetectionOptions,System.Func`1<System.String>,System.Func`1<System.Int64>)": {
+          "Lines": {
+            "10": 10,
+            "11": 10,
+            "12": 10,
+            "13": 10,
+            "14": 10,
+            "15": 10
+          },
+          "Branches": []
+        }
+      },
+      "MaichessAnticheatService.Cases.CaseService/<GetOrCreateAsync>d__12": {
+        "System.Void MaichessAnticheatService.Cases.CaseService/<GetOrCreateAsync>d__12::MoveNext()": {
+          "Lines": {
+            "132": 16,
+            "133": 16,
+            "134": 16,
+            "135": 7,
+            "136": 7,
+            "139": 9,
+            "140": 9,
+            "141": 16
+          },
+          "Branches": [
+            {
+              "Line": 134,
+              "Offset": 170,
+              "EndOffset": 172,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 134,
+              "Offset": 170,
+              "EndOffset": 182,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        }
+      },
+      "MaichessAnticheatService.Cases.CaseService/<RecordLiveSuspicionAsync>d__7": {
+        "System.Void MaichessAnticheatService.Cases.CaseService/<RecordLiveSuspicionAsync>d__7::MoveNext()": {
+          "Lines": {
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1
+          },
+          "Branches": []
+        }
+      },
+      "MaichessAnticheatService.Cases.CaseService/<RecordVerdictAsync>d__6": {
+        "System.Void MaichessAnticheatService.Cases.CaseService/<RecordVerdictAsync>d__6::MoveNext()": {
+          "Lines": {
+            "18": 15,
+            "19": 15,
+            "20": 15,
+            "21": 1,
+            "24": 1,
+            "27": 14,
+            "28": 14,
+            "29": 14,
+            "30": 14,
+            "31": 14,
+            "32": 14,
+            "33": 14,
+            "34": 14,
+            "35": 14,
+            "36": 14,
+            "37": 14,
+            "38": 14,
+            "39": 14,
+            "40": 14,
+            "42": 14,
+            "43": 14,
+            "45": 14,
+            "46": 5,
+            "47": 5,
+            "48": 5,
+            "49": 5,
+            "50": 5,
+            "51": 5,
+            "52": 5,
+            "53": 5,
+            "54": 5,
+            "55": 5,
+            "56": 5,
+            "57": 5,
+            "58": 5,
+            "59": 5,
+            "60": 5,
+            "61": 5,
+            "64": 9,
+            "65": 15
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 258,
+              "EndOffset": 260,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 20,
+              "Offset": 258,
+              "EndOffset": 266,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            },
+            {
+              "Line": 45,
+              "Offset": 587,
+              "EndOffset": 589,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 13
+            },
+            {
+              "Line": 45,
+              "Offset": 587,
+              "EndOffset": 624,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 629,
+              "EndOffset": 634,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 5
+            },
+            {
+              "Line": 45,
+              "Offset": 629,
+              "EndOffset": 1271,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 9
+            }
+          ]
+        }
+      },
+      "MaichessAnticheatService.Cases.CaseService/<UnflagAsync>d__8": {
+        "System.Void MaichessAnticheatService.Cases.CaseService/<UnflagAsync>d__8::MoveNext()": {
+          "Lines": {
+            "91": 4,
+            "92": 4,
+            "93": 4,
+            "94": 1,
+            "95": 1,
+            "98": 3,
+            "99": 1,
+            "100": 1,
+            "103": 2,
+            "104": 2,
+            "105": 2,
+            "106": 2,
+            "107": 2,
+            "108": 2,
+            "109": 2,
+            "110": 2,
+            "112": 2,
+            "113": 2,
+            "114": 2,
+            "115": 2,
+            "116": 2,
+            "117": 2,
+            "118": 2,
+            "119": 2,
+            "120": 4
+          },
+          "Branches": [
+            {
+              "Line": 93,
+              "Offset": 204,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 93,
+              "Offset": 204,
+              "EndOffset": 214,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 98,
+              "Offset": 235,
+              "EndOffset": 237,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 98,
+              "Offset": 235,
+              "EndOffset": 245,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Cases\\CheatEvents.cs": {
+      "MaichessAnticheatService.Cases.CheatEvents": {
+        "Maichess.Events.V1.CheatEvent MaichessAnticheatService.Cases.CheatEvents::PlayerFlagged(MaichessAnticheatService.Cases.CaseDocument,System.String,System.String,System.Int64)": {
+          "Lines": {
+            "18": 6,
+            "19": 6,
+            "20": 6,
+            "21": 6,
+            "22": 6,
+            "23": 6,
+            "24": 6,
+            "25": 6,
+            "26": 6,
+            "27": 6,
+            "28": 6,
+            "29": 6,
+            "30": 6,
+            "31": 6,
+            "32": 6,
+            "33": 6,
+            "34": 6,
+            "35": 6,
+            "36": 6
+          },
+          "Branches": []
+        },
+        "Maichess.Events.V1.CheatEvent MaichessAnticheatService.Cases.CheatEvents::PlayerUnflagged(MaichessAnticheatService.Cases.CaseDocument,System.String,System.String,System.String,System.Int64)": {
+          "Lines": {
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "48": 3,
+            "49": 3,
+            "50": 3,
+            "51": 3,
+            "52": 3,
+            "53": 3,
+            "54": 3,
+            "55": 3,
+            "56": 3,
+            "57": 3,
+            "58": 3,
+            "59": 3,
+            "60": 3,
+            "61": 3
+          },
+          "Branches": []
+        },
+        "Maichess.Events.V1.CheatEvent MaichessAnticheatService.Cases.CheatEvents::LiveSuspicionRaised(MaichessAnticheatService.Cases.CaseDocument,System.String,System.Int32,System.Double,System.String,System.Int64)": {
+          "Lines": {
+            "70": 2,
+            "71": 2,
+            "72": 2,
+            "73": 2,
+            "74": 2,
+            "75": 2,
+            "76": 2,
+            "77": 2,
+            "78": 2,
+            "79": 2,
+            "80": 2,
+            "81": 2,
+            "82": 2,
+            "83": 2,
+            "84": 2,
+            "85": 2,
+            "86": 2,
+            "87": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Analysis\\GameAnalyzer.cs": {
+      "MaichessAnticheatService.Analysis.GameAnalyzer": {
+        "System.Void MaichessAnticheatService.Analysis.GameAnalyzer::.ctor(MaichessAnticheatService.Analysis.IEngineAnalyzer,MaichessAnticheatService.Detection.DetectionOptions,System.Func`1<System.Int64>)": {
+          "Lines": {
+            "14": 7
+          },
+          "Branches": []
+        }
+      },
+      "MaichessAnticheatService.Analysis.GameAnalyzer/<AnalyzeAsync>d__4": {
+        "System.Void MaichessAnticheatService.Analysis.GameAnalyzer/<AnalyzeAsync>d__4::MoveNext()": {
+          "Lines": {
+            "20": 7,
+            "21": 7,
+            "22": 7,
+            "24": 90,
+            "25": 38,
+            "26": 38,
+            "27": 38,
+            "28": 3,
+            "29": 3,
+            "32": 35,
+            "33": 35,
+            "34": 35,
+            "36": 35,
+            "37": 35,
+            "38": 35,
+            "40": 35,
+            "41": 13,
+            "42": 13,
+            "43": 13,
+            "44": 13,
+            "46": 35,
+            "47": 35,
+            "49": 7,
+            "50": 47,
+            "51": 13,
+            "52": 13,
+            "53": 13,
+            "54": 13,
+            "55": 13,
+            "56": 13,
+            "57": 13,
+            "58": 13,
+            "60": 7,
+            "61": 7
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 655,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 38
+            },
+            {
+              "Line": 26,
+              "Offset": 99,
+              "EndOffset": 101,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 19
+            },
+            {
+              "Line": 26,
+              "Offset": 99,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 19
+            },
+            {
+              "Line": 27,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 27,
+              "Offset": 141,
+              "EndOffset": 149,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 35
+            },
+            {
+              "Line": 32,
+              "Offset": 173,
+              "EndOffset": 175,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 33
+            },
+            {
+              "Line": 32,
+              "Offset": 173,
+              "EndOffset": 219,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 36,
+              "Offset": 252,
+              "EndOffset": 254,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 13
+            },
+            {
+              "Line": 36,
+              "Offset": 252,
+              "EndOffset": 270,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 22
+            },
+            {
+              "Line": 40,
+              "Offset": 478,
+              "EndOffset": 480,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 13
+            },
+            {
+              "Line": 40,
+              "Offset": 478,
+              "EndOffset": 517,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 35
+            },
+            {
+              "Line": 24,
+              "Offset": 622,
+              "EndOffset": 624,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 39
+            },
+            {
+              "Line": 24,
+              "Offset": 622,
+              "EndOffset": 650,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 6
+            },
+            {
+              "Line": 24,
+              "Offset": 655,
+              "EndOffset": 660,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 7
+            },
+            {
+              "Line": 50,
+              "Offset": 1006,
+              "EndOffset": 694,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 13
+            },
+            {
+              "Line": 50,
+              "Offset": 1006,
+              "EndOffset": 1011,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 7
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\micro\\source\\MaiChess\\services\\maichess-anticheat-service\\Analysis\\MatchGame.cs": {
+      "MaichessAnticheatService.Analysis.MatchGame": {
+        "System.Void MaichessAnticheatService.Analysis.MatchGame::.ctor(System.String,System.String,System.String,System.Collections.Generic.IReadOnlyList`1<System.String>,System.Collections.Generic.IReadOnlyList`1<System.String>)": {
+          "Lines": {
+            "7": 7,
+            "8": 7,
+            "9": 7,
+            "10": 7,
+            "11": 7,
+            "12": 7
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
